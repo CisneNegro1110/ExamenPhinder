@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA6AD33C285395C0009D9EA9 /* NombreYBoton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AD33B285395C0009D9EA9 /* NombreYBoton.swift */; };
+		EA6AD33E285395F6009D9EA9 /* principalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AD33D285395F6009D9EA9 /* principalListView.swift */; };
+		EA6AD34228539650009D9EA9 /* viewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AD34128539650009D9EA9 /* viewModel.swift */; };
+		EA6AD34528539677009D9EA9 /* principalDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AD34428539677009D9EA9 /* principalDataModel.swift */; };
+		EA6AD3472853A11D009D9EA9 /* secondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AD3462853A11D009D9EA9 /* secondView.swift */; };
+		EA6AD3492853A17B009D9EA9 /* firstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AD3482853A17B009D9EA9 /* firstView.swift */; };
+		EA6AD34B2853A2FC009D9EA9 /* secondaryDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AD34A2853A2FC009D9EA9 /* secondaryDataModel.swift */; };
+		EAACEE702853DC66001F8BA7 /* AccessCamara.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAACEE6F2853DC65001F8BA7 /* AccessCamara.swift */; };
+		EAACEE722853DCD3001F8BA7 /* CoordinatorCamara.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAACEE712853DCD3001F8BA7 /* CoordinatorCamara.swift */; };
 		EAD3B9562851785500AE46D7 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD3B9552851785500AE46D7 /* Tests_iOS.swift */; };
 		EAD3B9582851785500AE46D7 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD3B9572851785500AE46D7 /* Tests_iOSLaunchTests.swift */; };
 		EAD3B9622851785500AE46D7 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD3B9612851785500AE46D7 /* Tests_macOS.swift */; };
@@ -37,6 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA6AD33B285395C0009D9EA9 /* NombreYBoton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NombreYBoton.swift; sourceTree = "<group>"; };
+		EA6AD33D285395F6009D9EA9 /* principalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = principalListView.swift; sourceTree = "<group>"; };
+		EA6AD34128539650009D9EA9 /* viewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewModel.swift; sourceTree = "<group>"; };
+		EA6AD34428539677009D9EA9 /* principalDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = principalDataModel.swift; sourceTree = "<group>"; };
+		EA6AD3462853A11D009D9EA9 /* secondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondView.swift; sourceTree = "<group>"; };
+		EA6AD3482853A17B009D9EA9 /* firstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstView.swift; sourceTree = "<group>"; };
+		EA6AD34A2853A2FC009D9EA9 /* secondaryDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondaryDataModel.swift; sourceTree = "<group>"; };
+		EAACEE6F2853DC65001F8BA7 /* AccessCamara.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessCamara.swift; sourceTree = "<group>"; };
+		EAACEE712853DCD3001F8BA7 /* CoordinatorCamara.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorCamara.swift; sourceTree = "<group>"; };
 		EAD3B93D2851785200AE46D7 /* ExamenPhinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamenPhinderApp.swift; sourceTree = "<group>"; };
 		EAD3B93E2851785200AE46D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EAD3B93F2851785500AE46D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -83,6 +101,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA6AD33F28539619009D9EA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA6AD3482853A17B009D9EA9 /* firstView.swift */,
+				EA6AD33D285395F6009D9EA9 /* principalListView.swift */,
+				EA6AD33B285395C0009D9EA9 /* NombreYBoton.swift */,
+				EA6AD3462853A11D009D9EA9 /* secondView.swift */,
+				EAACEE6E2853DC46001F8BA7 /* Camara */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EA6AD3402853962D009D9EA9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EA6AD34128539650009D9EA9 /* viewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EA6AD34328539664009D9EA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA6AD34428539677009D9EA9 /* principalDataModel.swift */,
+				EA6AD34A2853A2FC009D9EA9 /* secondaryDataModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EAACEE6E2853DC46001F8BA7 /* Camara */ = {
+			isa = PBXGroup;
+			children = (
+				EAACEE6F2853DC65001F8BA7 /* AccessCamara.swift */,
+				EAACEE712853DCD3001F8BA7 /* CoordinatorCamara.swift */,
+			);
+			path = Camara;
+			sourceTree = "<group>";
+		};
 		EAD3B9372851785200AE46D7 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +155,9 @@
 			children = (
 				EAD3B93D2851785200AE46D7 /* ExamenPhinderApp.swift */,
 				EAD3B93E2851785200AE46D7 /* ContentView.swift */,
+				EA6AD34328539664009D9EA9 /* Model */,
+				EA6AD3402853962D009D9EA9 /* ViewModel */,
+				EA6AD33F28539619009D9EA9 /* View */,
 				EAD3B93F2851785500AE46D7 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -299,8 +358,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA6AD34B2853A2FC009D9EA9 /* secondaryDataModel.swift in Sources */,
 				EAD3B9672851785500AE46D7 /* ContentView.swift in Sources */,
+				EA6AD33C285395C0009D9EA9 /* NombreYBoton.swift in Sources */,
 				EAD3B9652851785500AE46D7 /* ExamenPhinderApp.swift in Sources */,
+				EAACEE722853DCD3001F8BA7 /* CoordinatorCamara.swift in Sources */,
+				EA6AD34228539650009D9EA9 /* viewModel.swift in Sources */,
+				EA6AD3472853A11D009D9EA9 /* secondView.swift in Sources */,
+				EA6AD3492853A17B009D9EA9 /* firstView.swift in Sources */,
+				EA6AD33E285395F6009D9EA9 /* principalListView.swift in Sources */,
+				EAACEE702853DC66001F8BA7 /* AccessCamara.swift in Sources */,
+				EA6AD34528539677009D9EA9 /* principalDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +534,7 @@
 				DEVELOPMENT_TEAM = 4PL6HSR297;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please Allow App ability to access camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -496,6 +565,7 @@
 				DEVELOPMENT_TEAM = 4PL6HSR297;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please Allow App ability to access camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
